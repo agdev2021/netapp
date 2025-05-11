@@ -1,0 +1,86 @@
+.app-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  color: #888;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.card {
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.counter-section {
+  margin-top: 1.5rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #8B4513;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.feature {
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border-left: 3px solid #8B4513;
+}
+
+.feature h3 {
+  color: #8B4513;
+  margin-top: 0;
+}
+
+footer {
+  margin-top: 2rem;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+@media (prefers-color-scheme: light) {
+  .card, .feature {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
